@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         HamsterKombat Web open By DARKEN
+// @name         HamsterKombat Web open By DARKE
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Brauzerda Hamster Kombat ishga tushirilmoqda
