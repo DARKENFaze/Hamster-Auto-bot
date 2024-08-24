@@ -1,1 +1,1 @@
-More Information Soon | Developer @darken_edit
+Boshqa Ma'lumotlar Tez Orada | Dasturchi @darken_edit
