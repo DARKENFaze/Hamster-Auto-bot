@@ -4,13 +4,13 @@
 // @match        *://*.hamsterkombat.io/*
 // @match        *://*.hamsterkombatgame.io/*
 // @exclude      https://hamsterkombatgame.io/games/UnblockPuzzle/*
-// @version      2.2
-// @description  17.08.2024
+// @version      1.0
+// @description  23.08.2024
 // @grant        none
 // @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
-// @updateURL    https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-autoclicker.user.js
-// @homepage     https://github.com/mudachyo/Hamster-Kombat
+// @downloadURL  https://github.com/DARKENFaze/Hamster-Auto-bot/raw/main/hamster-autoclicker.user.js
+// @updateURL    https://github.com/DARKENFaze/Hamster-Auto-bot/raw/main/hamster-autoclicker.user.js
+// @homepage     https://github.com/DARKENFaze/Hamster-Auto-bot
 // ==/UserScript==
 
 (function() {
@@ -34,7 +34,7 @@
 	console.clear();
 	console.log(`${logPrefix}Starting`, styles.starting);
 	console.log(`${logPrefix}Created by https://t.me/darken_edit`, styles.starting);
-	console.log(`${logPrefix}Github https://github.com/mudachyo/Hamster-Kombat`, styles.starting);
+	console.log(`${logPrefix}Github https://github.com/DARKENFaze/Hamster-Auto-bot.git`, styles.starting);
 
 	let settings = {
 		minEnergy: 25, // Минимальная энергия, необходимая для нажатия на монету
