@@ -673,8 +673,8 @@
 					<div class="header-container">
 						<h1>Hamster Kombat Yangilanishlar</h1>
 						<div class="button-container">
-							<button id="toggleButton" class="button">Yashirish mavjud emas</button>
-							<a href="https://github.com/mudachyo/Hamster-Kombat" target="_blank" class="button">Github</a>
+							<button id="toggleButton" class="button">Yashirish</button>
+							<a href="https://github.com/DARKENFaze/Hamster-Auto-bot" target="_blank" class="button">Github</a>
 							<a href="https://t.me/DARKEN_AE" target="_blank" class="button">Telegram Channel</a>
 							<a href="#" target="_blank" id="donateButton" class="button">Donate</a>
 						</div>
@@ -686,7 +686,7 @@
 						const table = document.getElementById('upgradesTable');
 						toggleButton.addEventListener('click', () => {
 							showUnavailable = !showUnavailable;
-							toggleButton.textContent = showUnavailable ? 'Hide Unavailable' : 'Show All';
+							toggleButton.textContent = showUnavailable ? 'Yashirish mavjud emas' : 'Show All';
 							const rows = table.getElementsByTagName('tr');
 							for (let i = 1; i < rows.length; i++) {
 								if (rows[i].classList.contains('unavailable')) {
@@ -1516,3 +1516,5 @@
     autoBuy();
   }, 5000);
 })();
+
+// developer @darken_edit in tg
