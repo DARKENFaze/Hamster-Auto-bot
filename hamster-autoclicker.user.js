@@ -673,7 +673,7 @@
 					<div class="header-container">
 						<h1>Hamster Kombat Yangilanishlar</h1>
 						<div class="button-container">
-							<button id="toggleButton" class="button">Hide Unavailable</button>
+							<button id="toggleButton" class="button">Yashirish mavjud emas</button>
 							<a href="https://github.com/mudachyo/Hamster-Kombat" target="_blank" class="button">Github</a>
 							<a href="https://t.me/DARKEN_AE" target="_blank" class="button">Telegram Channel</a>
 							<a href="#" target="_blank" id="donateButton" class="button">Donate</a>
@@ -977,7 +977,7 @@
 
     const menuTitle = document.createElement("h3");
     menuTitle.className = "settings-title";
-    menuTitle.textContent = "HK Autoclicker";
+    menuTitle.textContent = "DARKEN Auto Clicker";
 
     const closeButton = document.createElement("button");
     closeButton.className = "settings-close-button";
@@ -991,14 +991,14 @@
 
     settingsMenu.appendChild(
       createSettingElement(
-        "Min Energy",
+        "Minimal energiya",
         "minEnergy",
         "range",
         5,
         6000,
         5,
         "EN: Minimum energy required to click.<br>" +
-          "RU: Минимальная энергия, необходимая для клика." +
+          "RU: Минимальная энергия, необходимая для клика.<br>" +
           "UZ: Bosish uchun zarur bo'lgan minimal energiya"
       )
     );
@@ -1011,7 +1011,7 @@
         1000,
         10,
         "EN: Minimum interval between clicks.<br>" +
-          "RU: Минимальный интервал между кликами." +
+          "RU: Минимальный интервал между кликами.<br>" +
           "UZ: Bosishlar orasidagi maksimal interval"
       )
     );
@@ -1024,33 +1024,33 @@
         10000,
         10,
         "EN: Maximum interval between clicks.<br>" +
-          "RU: Максимальный интервал между кликами." +
+          "RU: Максимальный интервал между кликами.<br>" +
           "UZ: Bosishlar orasidagi maksimal interval"
       )
     );
     settingsMenu.appendChild(
       createSettingElement(
-        "Min Refill Delay (ms)",
+        "Minimal to'ldirish kechikishi (ms)",
         "minEnergyRefillDelay",
         "range",
         10,
         1200000,
         10,
         "EN: Minimum energy refill delay in seconds.<br>" +
-          "RU: Минимальная задержка пополнения энергии." +
+          "RU: Минимальная задержка пополнения энергии.<br>" +
           "UZ: Energiyani to'ldirishning minimal kechikishi soniyalarda"
       )
     );
     settingsMenu.appendChild(
       createSettingElement(
-        "Max Refill Delay (ms)",
+        "Maksimal to'ldirish kechikishi (ms)",
         "maxEnergyRefillDelay",
         "range",
         10,
         1200000,
         10,
         "EN: Maximum energy refill delay in seconds.<br>" +
-          "RU: Максимальная задержка пополнения энергии." +
+          "RU: Максимальная задержка пополнения энергии.<br>" +
           "UZ: Energiyani to'ldirishning maksimal kechikishi soniyalarda"
       )
     );
@@ -1059,19 +1059,19 @@
     autoBuyContainer.className = "setting-item auto-buy-container";
 
     const autoBuyCheckbox = createSettingElement(
-      "Auto Buy",
+      "Avtomatik sotib olish",
       "autoBuyEnabled",
       "checkbox",
       null,
       null,
       null,
       "EN: Automatically buy the most profitable upgrade.<br>" +
-        "RU: Автоматически покупать самое выгодное улучшение." +
+        "RU: Автоматически покупать самое выгодное улучшение.<br>" +
         "UZ: Avtomatik ravishda eng foydali yangilanishni sotib oling"
     );
 
     const maxPaybackHoursInput = createSettingElement(
-      "Max Payback Hours",
+      "Maksimal to'lov soatlari",
       "maxPaybackHours",
       "number",
       1,
@@ -1088,13 +1088,13 @@
     settingsMenu.appendChild(autoBuyContainer);
 
     const pauseResumeButton = document.createElement("button");
-    pauseResumeButton.textContent = "Pause";
+    pauseResumeButton.textContent = "To'xtatPause";
     pauseResumeButton.className = "pause-resume-btn";
     pauseResumeButton.onclick = toggleScriptPause;
     settingsMenu.appendChild(pauseResumeButton);
 
     const displayButton = document.createElement("button");
-    displayButton.textContent = "View Upgrades Table";
+    displayButton.textContent = "Yangilanishlar jadvalini ko'ring";
     displayButton.className = "display-data-btn";
     displayButton.onclick = () => {
       console.log(`${logPrefix}Display button clicked`, styles.info);
